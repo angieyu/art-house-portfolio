@@ -1,0 +1,65 @@
+{
+  "name": "solo-project-portfolio-app",
+  "version": "1.0.0",
+  "description": "solo project to create a website where users can upload content for their portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db": "node save-data/capture.js",
+    "build": "node ./node_modules/.bin/webpack -w",
+    "webpackServer": "node_modules/.bin/webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Titan0723/solo-project-portfolio-app.git"
+  },
+  "keywords": [
+    "solo",
+    "react",
+    "routing",
+    "portfolio",
+    "user",
+    "create",
+    "login",
+    "mongodb",
+    "express",
+    "mongoose"
+  ],
+  "author": "Angela Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Titan0723/solo-project-portfolio-app/issues"
+  },
+  "homepage": "https://github.com/Titan0723/solo-project-portfolio-app#readme",
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "json-loader": "^0.5.4",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "webpack": "^2.3.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "json-loader": "^0.5.4",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.0"
+  }
+}
